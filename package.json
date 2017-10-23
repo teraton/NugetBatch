@@ -1,0 +1,22 @@
+{
+  "name": "nuget-batch-push",
+  "version": "1.0.0",
+  "description": "a tool for pushing multip .nupkg files to a feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nugetbatch": "index.js"
+  },
+  "keywords": [
+    "nuget",
+    "nupkg",
+    "multiple"
+  ],
+  "author": "Henri Terho",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
