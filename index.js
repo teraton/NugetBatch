@@ -77,14 +77,6 @@ nupkgNames.forEach( nupackage =>{
             numberOfProblems++;
         }
     } );
-    
-//    exec(nugetPath + ' push -Source "' + program.source + '" -ApiKey ' + program.apikey + " " + nupackage , (error, stdout, stderr) => {
-//        console.log(`stdout: ${stdout}`);
-//        console.log(`stderr: ${stderr}`);
-//        if (error !== null) {
-//            console.log(`exec error: ${error}`);
-//        }
-//    } );
 
 });
 console.log(LOG + "We logged "+ numberOfProblems +" problems during the mass push" );
